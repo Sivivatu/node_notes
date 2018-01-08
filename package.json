@@ -1,0 +1,20 @@
+{
+  "name": "node_notes",
+  "version": "1.0.0",
+  "description": "tutorial process for creating a Google Keep Style notes app",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon server.js"
+},
+  "keywords": [
+    "tutorial",
+    "notes"
+  ],
+  "author": "Paul Houghton",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  }
+}
