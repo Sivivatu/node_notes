@@ -2,10 +2,10 @@
   "name": "node_notes",
   "version": "1.0.0",
   "description": "tutorial process for creating a Google Keep Style notes app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
   "dev": "nodemon server.js"
-},
+  },
   "keywords": [
     "tutorial",
     "notes"
@@ -16,5 +16,8 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+  "nodemon": "^1.11.0"
   }
 }
