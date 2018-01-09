@@ -4,7 +4,7 @@
   "description": "tutorial process for creating a Google Keep Style notes app",
   "main": "server.js",
   "scripts": {
-  "dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "tutorial",
@@ -15,9 +15,9 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "mongodb": "^3.0.1"
+    "mongodb": "^2.2.19"
   },
   "devDependencies": {
-  "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0"
   }
 }
